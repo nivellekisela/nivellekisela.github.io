@@ -1,0 +1,43 @@
+.content .getinvolved h3 {
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: 900;
+font-size: 33.18px;
+line-height: 51px;
+text-align: center;
+color: #BFCA62;
+}
+
+
+.content p {
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: justify-all;
+text-indent: 16px;
+
+color: #FFFFFF;
+}
+
+.p {
+	font-family: Sofia Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: justify-all;
+text-indent: 16px;
+color: #FFFFFF;
+}
+
+.getinvolved h4 {
+font-family: Sofia Pro;
+font-style: normal;
+font-weight: 900;
+font-size: 27.648px;
+padding-bottom: 20px;
+text-align: center;
+color: #708741;
+}

@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  background-image: url('bgkawatdesktop1');
+  background-repeat: no-repeat;
+}
+
+.sidebar {
+  background-color: #ACB238;
+  height: 90px;
+  overflow: hidden;
+}
+
+
+.sidebar a {
+  float: left;
+  top:0;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 31px 40px 16px 0px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+.sidebar a:hover {
+  color: #708741;
+}
+
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.openbtn {
+  display: none;
+}
+
+.closebtn {
+  display: none;
+}
+
+.logo img {
+position: absolute;
+width: 147px;
+height: 68px;
+left: 64px;
+top: 13px;
+}
+
+.content {
+  padding-top : 200px;
+  padding: 114px;
+  width: 1280px;
+  left: 0px;
+}
+
+.content .getinvolved {
+padding: 33px;
+position: absolute;
+height: auto;
+left: 0px;
+}
+
+.gbrgetinvolved {
+  padding-top: 27px;
+  padding-bottom: 64px;
+}
+
+.gbrgetinvolved img {
+  border-radius: 20px;
+  width: 346px;
+  height: auto;
+}
+
+@media only screen and (max-width: 414px) {
+
+    body {
+    background-image: url('bg-kawat-long-gradasi.jpg');
+    background-repeat: no-repeat;
+    background-size: 413px 1218px;
+    background-color: black;
+    }
+
+/*ini tombol menu 3 garis*/
+.topnav {
+  background-color: #ACB238;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.logo img {
+  position: fixed;
+  width: 100px;
+  height: 46px;
+  left: 279px;
+  top: 7px;
+}
+
+
+/* sidebar menu */
+.sidebar {
+  height: 100%; 
+  width: 0; 
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #BFCA62;
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+/* sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 23px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+}
+
+/* hover warna nav links */
+.sidebar a:hover {
+  color: #708741;
+}
+
+/* buat close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #ACB238;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  color: #708741;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+.content {
+  padding-top : 99px;
+  padding: 33px;
+  width: 347px;
+  left: 0px;
+}
+
+.content .getinvolved {
+padding: 33px;
+position: absolute;
+height: auto;
+left: 0px;
+}
+
+.getinvolved {
+  padding-top : 99px;
+  margin-top: 50px;
+  width: 347px;
+}
+
+.getinvolved h3 {
+  padding-bottom: 20px;
+}
+
+.getinvolved p{
+  text-align: justify;
+}
+
+.suggestion {
+  width: 347px;
+  height: 550px;
+  background-color: #708741;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gbrgetinvolved {
+  padding-top: 25px;
+  padding-bottom: 34px;
+}
+
+.gbrgetinvolved img {
+  border-radius: 20px;
+  width: 346px;
+  height: auto;
+}
+}

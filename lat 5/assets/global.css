@@ -1,0 +1,750 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('bgdesktop4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.headline {
+position: absolute;
+width: 100%;
+height: auto;
+left: 688px;
+top: 172px;
+}
+
+.headline img {
+  width: 481px;
+}
+
+
+.sidebar {
+  background-color: #ACB238;
+  height: 90px;
+  overflow: hidden;
+}
+
+
+.sidebar a {
+  float: left;
+  top:0;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 31px 40px 16px 0px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+.sidebar a:hover {
+  color: #708741;
+}
+
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.openbtn {
+  display: none;
+}
+
+.closebtn {
+  display: none;
+}
+
+.logo img {
+position: absolute;
+width: 147px;
+height: 68px;
+left: 64px;
+top: 13px;
+}
+
+
+.about.greenbtn {
+    background-color: #ACB238;
+    border: none;
+    padding: 3px;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+
+    margin: 4px 2px;
+    cursor: pointer;
+
+    width: 118px;
+    height: 37px;
+    left: 261px;
+    top: -100px;
+    border-radius: 10px;
+}
+
+.antonio .greenbtn {
+position: absolute;
+width: 134px;
+height: 55px;
+left: 1037px;
+top: 1721px;
+}
+
+.greenbtn a {
+   color: white;
+   text-decoration: none;
+}
+
+.about {
+    position: absolute;
+    text-align: justify;
+    padding: 111px;
+    width: 1041px;
+    height: 703px;
+    left: 0px;
+    top: 625px;
+    background: #BFCA62;
+  }
+
+ .about p {
+  width:481px;
+ } 
+
+.gbr {
+  padding: 111px;
+  width: 1280px;
+  height: 703px;
+  left: 690px;
+  top:625px;
+}
+
+.gbr img {
+position: absolute;
+width: 482px;
+height: 384px;
+left: 687px;
+top: 120px;
+border-radius: 20px;
+}
+
+.about .greenbtn {
+    background-color: #ACB238;
+    border: none;
+    padding: 3px;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+
+    margin: 4px 2px;
+    cursor: pointer;
+
+position: absolute;
+width: 134px;
+height: 55px;
+left: 461px;
+top: 1113px;
+border-radius: 10px;
+}
+
+.antonio h3 {
+position: absolute;
+width: 343px;
+height: 91px;
+left: 688px;
+top: 1463px;
+}
+
+.ivonne h3 {
+position: absolute;
+width: 386px;
+height: 91px;
+left: 113px;
+top: 130px;
+}
+
+.ivonne h4 {
+  position: absolute;
+left:115px;
+top: 180px;
+}
+
+.antonio {
+    position: absolute;
+    text-align: justify;
+    padding: 111px;
+    width: 1041px;
+    height: 703px;
+    left: 0px;
+    top: 1338px;
+    background: #708741;
+}
+
+.antonio h3 {
+position: absolute;
+width: 386px;
+height: 91px;
+left: 687px;
+top: 130px;
+}
+
+.antonio h4{
+ position: absolute;
+width: 386px;
+height: 91px;
+left: 687px;
+top: 180px;
+}
+
+.antonio .text {
+position: absolute;
+width: 481px;
+height: 268px;
+left: 690px;
+top: 1581px;
+}
+
+
+.ivonne p {
+left: 113pt;
+top:250px;
+}
+
+.ivonne {
+    position: absolute;
+    text-align: justify;
+    padding: 111px;
+    width: 1041px;
+    height: 703px;
+    left: 0px;
+    top: 1910px;
+    background: #233525;
+}
+
+.content.antonio {
+left: 113px;
+top: 1463px;
+}
+
+.antonio .gambarorg img {
+position: absolute;
+width: 481px;
+height: auto;
+border-radius: 20px;
+}
+
+.content.ivonne {
+left: 687px;
+top: 2019px;
+}
+
+.ivonne .gambarorg img {
+position: absolute;
+width: 481px;
+height: auto;
+left: 687px;
+border-radius: 20px;
+}
+
+.events {
+background-image:url('bgkawatdesktop1.jpg');
+background-position: cover;
+position: absolute;
+text-align: justify;
+position: absolute;
+width: 1280px;
+height: 1493px;
+left: 0px;
+top: 2381px;
+}
+
+  .events h3 {
+    padding-top: 316px;
+    padding-bottom: 40px;
+  }
+
+  .greenbtnevents {
+    background-color: #ACB238;
+    border: none;
+    padding: 3px;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 573px;
+    border-radius: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    width: 134px;
+    height: 37px;
+  }
+
+  .partners {
+    position: absolute;
+    text-align: center;
+    width: 1280px;
+    width: 100%;
+    top: 3013px;
+    height: 86px;
+}
+
+  .partners .logos {
+    top: 3500px;
+    height: 334px;
+    padding: 33px;
+  }
+
+  .logos .sos {
+width: 271px;
+height: 153px;
+left: 221px;
+top: 3172px;
+position: absolute;
+  }
+
+  .logos .undp {
+position: absolute;
+width: 122px;
+height: 295px;
+left: 937px;
+top: 3126px;
+  }
+
+  .logos .wwf {
+position: absolute;
+width: 189px;
+height: 236px;
+left: 612px;
+top: 3126px;
+  }
+
+.taglinegbr {
+  padding:113px;
+  top:3000px;
+}
+
+.taglinegbr .tagline {
+position: absolute;
+width: 424px;
+height: 255px;
+left: 428px;
+top: 3501px;
+}
+
+.taglinegbr .macaw {
+position: absolute;
+width: 404px;
+height: 298px;
+left: 452px;
+top: 3737px;
+}
+
+.footer{
+position: absolute;
+width: 1280px;
+height: 254px;
+left: 0px;
+top: 4035px;
+padding-top: 30px;
+background: #092818;
+}
+
+
+@media only screen and (max-width: 414px) {
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background size: contain;
+}
+
+  .topnav {
+    background-color: #ACB238;
+    overflow: hidden;
+    top: 0;
+    width: 413px;
+    height: 58px;
+    position: fixed;
+  }
+
+
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+  }
+
+  .topnav .logo img {
+    position: fixed;
+    width: 100px;
+    height: 46px;
+    left: 279px;
+    top: 7px;
+  }
+
+
+  /* sidebar menu */
+  .sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #BFCA62;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s;
+  }
+
+  /* sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 23px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* hover warna nav links */
+  .sidebar a:hover {
+    color: #708741;
+  }
+
+  /* buat close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+  }
+
+
+  .openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #ACB238;
+    color: white;
+    padding: 10px 10px 10px 33px;
+    border: none;
+    display: inline;
+  }
+
+  .openbtn:hover {
+    color: #708741;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+  /*headline*/
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.headline {
+position: absolute;
+width: 100%;
+height: auto;
+left: 3px;
+top: 98px;
+}
+
+.headline img {
+  width: 346px;
+}
+
+  .about {
+    position: absolute;
+    text-align: justify;
+    padding: 33px;
+    width: 347px;
+    height: 425px;
+    left: 0px;
+    top: 793px;
+    background: #BFCA62;
+  }
+
+  .about p {
+position: absolute;
+width: 346px;
+height: 376px;
+left: 33px;
+top: 100px;
+  }
+
+.about .greenbtn {
+position: absolute;
+width: 118px;
+height: 37px;
+left: 260px;
+top: 405px;
+  }
+
+  .gbr img {
+    display: none;
+  }
+
+  .gambarorg {
+    height: 194px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gambarorg img {
+    width: 481px;
+  }
+
+  .text {
+    margin-top: 25px;
+    margin-bottom: 25px;
+ position: absolute;
+width: 346px;
+height: 376px;
+left: 33px;
+top: 100px;
+  }
+
+  .antonio {
+    position: absolute;
+    text-align: justify;
+    padding: 33px;
+    width: 347px;
+    left: 0px;
+    top: 1272px;
+    background: #708741;
+  }
+
+  .antonio h3 {
+position: absolute;
+width: 343px;
+height: 91px;
+left: 37px;
+top: 20px;
+  }
+
+.antonio h4 {
+position: absolute;
+width: 343px;
+height: 91px;
+left: 37px;
+top: 60px;
+}
+
+.antonio .text{ /*ni buat text*/
+position: absolute;
+width: 346px;
+height: 122px;
+left: 33px;
+top: 360px;
+  }
+
+.antonio .gambarorg { /*ni buat gbr*/
+    position: absolute;
+    height: auto;
+    left: 0px;
+    top: -20px;
+}
+
+
+  .gambarorg img {
+    width: 346px;
+    height: auto;
+    left: 33px;
+    top: 100px;  }
+
+  .ivonne {
+    position: absolute;
+    text-align: justify;
+    padding: 33px;
+    width: 347px;
+    left: 0px;
+    top: 1855px;
+    height: 535px;
+    background: #233525;
+  }
+
+.ivonne h3 {
+position: absolute;
+width: 343px;
+height: 91px;
+left: 37px;
+top: 30px;
+}
+
+.ivonne h4 {
+position: absolute;
+width: 343px;
+height: 91px;
+left: 37px;
+top: 80px;
+}
+
+.ivonne .text{
+position: absolute;
+width: 346px;
+height: 122px;
+left: 33px;
+top: 400px;
+  }
+
+.ivonne .gambarorg {
+    position: absolute;
+    width: 
+    height: auto;
+    left: 0px;
+    top: 10px;
+}
+
+  .gambarorg img {
+    width: 10px;
+    height: auto;
+    left: 33px;  }
+
+.ivonne .greenbtn {
+position: absolute;
+width: 118px;
+height: 37px;
+left: 260px;
+top: 530px;
+  }
+
+  .events {
+    background-image:url('bg-kawat-long-green.jpg');
+    text-align: justify;
+    padding: 33px;
+    width: 347px;
+    height: 1218px;
+    left: 0px;
+    top: 2400px;
+  }
+
+  .events h3 {
+    padding-top: 200px;
+    padding-bottom: 34px;
+  }
+
+  .greenbtnevents {
+    background-color: #ACB238;
+    border: none;
+    padding: 3px;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 148px;
+
+    margin: 4px 2px;
+    cursor: pointer;
+
+    width: 118px;
+    height: 37px;
+    border-radius: 10px;
+  }
+
+  .partners {
+    position: absolute;
+    text-align: center;
+    width: 347px;
+    width: 100%;
+    top: 2700px;
+    height: 334px;
+  }
+
+    .partners .logos {
+    top: 3500px;
+    height: 334px;
+    padding: 33px;
+  }
+
+  .logos .sos {
+  width: 140px;
+  height: auto;
+  padding-bottom: 40px;
+  padding-top: 70px;
+  left: 135px;
+  top: 2800px;
+  position: absolute;
+  }
+
+  .logos .undp {
+  width: 67px;
+  height: auto;
+  left: 95px;
+  top: 2900px;
+  padding-top: 70px;
+  position: absolute;
+  }
+
+  .logos .wwf {
+  width: 104px;
+  height: auto;
+  left: 215px;
+  top: 2911px;
+  padding-top: 70px;
+  position: absolute;
+  }
+
+  .taglinegbr {
+  padding: 33px;
+  width: 100%
+  height: auto;
+  top: 3173px;
+  position: absolute; 
+  }
+
+  .taglinegbr .tagline {
+    height: auto;
+    width: 283px;
+    left: 64px;
+    top: 15px;
+    position: absolute;
+  }
+
+  .taglinegbr .macaw {
+    height: auto;
+    width: 412px;
+    left: 0px;
+    top: 180px;
+    position: absolute;
+  }
+
+  .partners h3 {
+    padding-top: 100px;
+    padding-bottom: 34px;
+  }
+
+  .footer {
+position: absolute;
+padding: 33px;
+width: 347px;
+height: 254px;
+left: 0px;
+top: 3650px;
+
+background: #092818;
+  }
+
+}
+
+
